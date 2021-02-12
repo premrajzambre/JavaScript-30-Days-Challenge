@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather & Time</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <!-- <div id="app"></div> -->
+
+    <h1 class="heading">Weather App</h1>
+    <div class="cityInputdiv">
+      <label class="labelcity" for="cityInput"
+        >City Name :
+        <input class="city" type="text" id="cityInput" />
+      </label>
+    </div>
+      <br><br>
+    <div class="btn">
+
+      <button id="weather" class="btn-secondary" onClick="">Weather</button>
+      <button id="time" class="btn-secondary" onClick="">Time</button>
+    </div>
+<br>
+<hr class="style-one">
+<br>
+    <div class="container">
+      <div class="row offset">
+        <!-- <div class="col"> -->
+          <div class="col-md-6">
+            <div class="card text-center text-white  mb-3">
+                <div class="card-header" style="background-color: #48a6b8; border-bottom: 2px solid black;">
+                  <h5 class="card-title">Weather </h5>
+                </div>
+                <div class="card-body" style="background-color: #53cae0;">
+                  <h3 class="card-title" id="description" style="color: black;"></h3>
+                  <h1 class="card-title" id="temp" style="color: black;"></h1>
+                  <p class="card-title" id="location" style="color: black;"></p>
+                </div>
+            </div>
+          </div>
+        <!-- </div> -->
+<br>
+        <!-- <div class="col"> -->
+          <div class="col-md-6">
+            <div class="card text-center text-white  mb-3">
+                <div class="card-header" style="background-color: #36c7aa; border-bottom: 2px solid black;">
+                  <h5 class="card-title">Time</h5>
+                </div>
+                <div class="card-body" style="background-color: #7CD1C0;">
+                  <h3 class="card-title" id="timeZone" style="color: black;"></h3>
+                  <h2 class="card-title" id="time12" style="color: black;"></h2>
+
+                </div>
+            </div>
+          </div>
+        <!-- </div> -->
+      
+      </div>
+    </div>
+
+    <!-- <div id="weather">
+      <div id="description"></div>
+      <h1 id="temp"></h1>
+      <div id="location"></div>
+    </div> -->
+<br><br>
+    <!-- <div class="time">
+      <p id="timeZone"></p>
+      <p id="time12"></p>
+    </div> -->
+    <script src="/src/index.js"></script>
+    <!-- <script src="/src/index1.js"></script> -->
+  </body>
+</html>

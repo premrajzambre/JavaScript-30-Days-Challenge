@@ -6,4 +6,5 @@ List of Challenges :
     <li>Day 2 : JS and CSS Clock</li>
     <li>Day 3 : CSS Variables</li>
     <li>Day 4 : Array Cardio Day 1</li>
+    <li>Day 5 : JavaScript Weather & Time App</li>
 </ol>
